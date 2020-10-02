@@ -3,7 +3,54 @@
 body {
     background-color: black !important;
     color: white !important;
+    margin: 0%;
+    padding: 0px;
+    border: 0px;
 }
+
+
+/* ---> inicia contenido probado <--- */
+
+.mar4 {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+}
+
+.bg-primary #sidebar-container .logo {
+    padding: 0.875rem 1.25rem;
+}
+
+#sidebar-container .menu-pane-header {
+    width: 18rem;
+}
+
+.uno {
+    float: left;
+}
+
+.dos {
+    float: right;
+}
+
+.dos2 {
+    width: 1332px;
+}
+
+.row {
+    flex-wrap: nowrap !important;
+}
+
+
+/* --->  termina contenido probado <--- */
 
 hr {
     border-color: white;
