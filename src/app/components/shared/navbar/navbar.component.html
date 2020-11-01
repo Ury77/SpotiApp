@@ -1,59 +1,22 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
   <a class="navbar-brand" href="#">
-    SpotiApp
-
-    <img src="assets/banner-ico.png" alt="" width="30" />
-  </a>
-
-  <button
-    class="navbar-toggler d-lg-none"
-    type="button"
-    data-toggle="collapse"
-    data-target="#collapsibleNavId"
-    aria-controls="collapsibleNavId"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
+    <img src="assets/img/banner-ico.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+    SpotiAPP</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <form class="form-inline position-relative my-2 d-inline-block">
-    <input class="form-control mr-sm-2" type="text" placeholder="Buscar" />
-    <button class="btn btn-search position-absolute" type="submit">
-      <i class="fa fa-search"></i>
-    </button>
-  </form>
 
-  <ul class="navbar-nav mr-auto" routerLinkActive="active">
-    <a class="nav-link" routerLink="home">Home </a>
-  </ul>
-  <ul class="navbar-nav mr-auto" routerLinkActive="active">
-    <a class="nav-link" routerLink="search">Search</a>
-  </ul>
-
-  <div class="collapse navbar-collapse" id="collapsibleNavId">
-    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle"
-          href="#"
-          id="dropdownId"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          <img
-            src=" assets/user-2.png"
-            class="img-fluid rounded-circle avatar mr-2"
-            alt=""
-          />
-          Uriel López hdz</a
-        >
-        <div class="dropdown-menu" aria-labelledby="dropdownId">
-          <a class="dropdown-item" href="#"> Mi perfil</a>
-          <a class="dropdown-item" href="#"> Suscripción</a>
-          <a class="dropdown-item" href="#">Cerrar sesión</a>
-        </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="home">Home </a>
       </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="search">Link</a>
+      </li>
+     
+      
     </ul>
+    
   </div>
 </nav>

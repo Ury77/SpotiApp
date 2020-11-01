@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home.component.html',
   styles: [],
 })
-export class HomeComponent implements OnInit {
+
+/* export class HomeComponent implements OnInit {
   paises: any = [];
   constructor(private http: HttpClient) {
     console.log(' Constructor del Home hecho');
@@ -19,4 +20,16 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {}
+} */
+
+
+export class HomeComponent implements OnInit {
+
+  constructor(){
+
+  }
+
+  ngOnInit(){
+
+  }
 }

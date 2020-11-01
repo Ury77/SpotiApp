@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import { pathToFileURL } from 'url';
 import { HomeComponent } from './components/home/home.component';
 import { SearchComponent } from './components/search/search.component';
 

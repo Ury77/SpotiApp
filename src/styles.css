@@ -1,11 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-  background-color: black !important;
+  background-color: black;
   color: white !important;
-  margin: 0%;
-  padding: 0px;
-  border: 0px;
 }
 
 hr {
@@ -39,6 +36,7 @@ hr {
   height: 50px;
 }
 
+
 /* Animaciones */
 
 .animated {
@@ -57,17 +55,13 @@ hr {
 
 @keyframes fadeIn {
   from {
-    opacity: 0;
+      opacity: 0;
   }
   to {
-    opacity: 1;
+      opacity: 1;
   }
 }
 
 .fadeIn {
   animation-name: fadeIn;
-}
-
-.avatar {
-  max-width: 35px;
 }
